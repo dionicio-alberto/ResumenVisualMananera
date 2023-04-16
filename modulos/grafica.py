@@ -17,8 +17,8 @@ def grafica(comentarios,stop_words2):
 
     # display the word cloud
     fig = plt.figure()
-    fig.set_figwidth(3) # set width
-    fig.set_figheight(4) # set height
+    fig.set_figwidth(1.5) # set width
+    fig.set_figheight(2) # set height
 
     plt.imshow(amlo_wc, interpolation='spline36')
     plt.axis('off')
