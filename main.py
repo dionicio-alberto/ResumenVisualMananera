@@ -9,7 +9,6 @@ stop_words2 = ["pues", "bueno", "si", "año", "mil", "millones","va","aqui","aho
 
 if __name__ == '__main__':
     a = url.url_dia()
-    print(a)
     b = ds.comentarios_presidente(a)
     gr.grafica(b,stop_words2)
     print('La imagen se obtuvo con exito')
