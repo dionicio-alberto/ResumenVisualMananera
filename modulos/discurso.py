@@ -8,8 +8,7 @@ def obtencion_comentarios(url):
     data = [element.text for element in soup.find_all('p')]
     return(data)
 
-def comentarios_presidente(url):
-    data=obtencion_comentarios(url)
+def comentarios_presidente(data):
     comentarios_amlo = []
     guardar_amlo = False
     for element in data: #Para todos los elementos de la lista
@@ -25,8 +24,7 @@ def comentarios_presidente(url):
     comentarios_amlo = str(comentarios_amlo)
     return(comentarios_amlo)
 
-def comentarios_pyi(url):
-    data=obtencion_comentarios(url)
+def comentarios_pyi(data):
     comentarios_pyi = []
     guardar_otros = False, False
     for element in data: #Para todos los elementos de la lista
