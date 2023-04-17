@@ -30,6 +30,6 @@ if __name__ == '__main__':
     f = tw.enviar_tweet_presidente(e)
     
     g = tw.subir_imagen(d)
-    h = tw.enviar_tweet_presidente(g)
+    h = tw.enviar_tweet_preguntas(g)
     remove(d)
     remove(c)
