@@ -3,7 +3,7 @@ import atexit
 from apscheduler.schedulers.background import BackgroundScheduler
 import todo_listo as todo_listo 
 import os, time
-os.environ['TZ'] = 'America/Chicago'
+
 
 application = Flask(__name__)
 
@@ -19,7 +19,7 @@ def job():
 scheduler = BackgroundScheduler()
 scheduler.add_job(func=job, trigger = 'cron', day_of_week='mon-fri',hour='21', minute='1', timezone = 'UTC')
 scheduler.start()
-
+    
 atexit.register(lambda: scheduler.shutdown())
 
 if __name__ == "__main__":

@@ -14,7 +14,13 @@ stop_words2 = ["pues", "bueno", "si", "año", "mil", "millones","va","aqui","aho
               "ANDRÉS", "MANUEL", "LÓPEZ", "OBRADOR","Entonces",'tres','así','voy','ver','además','voy','llego','aunque','puede',
               "toda","aquí",'vamos','dos','ahí','cómo','Pregunta','caso',
               'INTERVENCIóN','INTERLOCUTOR','INTERLOCUTORA','inaudible',
-              'gracias','comentarle','xa0','xa0Sí',"xa0'",'xa0que','xa0No','xa0y','xa0de','xa0Una']
+              'gracias','comentarle','xa0','xa0Sí',"xa0'",'xa0que','xa0No','xa0y','xa0de','xa0Una',
+              'gente','seguir','adelante','mismo','tener','señor',
+              'tema','usted','persona','ayer','ejemplo','finalmente','día',
+              'ser','pudiera','hizo','momento','ejemplo','cuál','estudio','preguntarle','xa0Gracias','xa0Mi',
+              'xa0Julen','xa0Pero','xa0Dice','xa0Le','incluso','precisamente','parte','tipo','digo','permite',
+              'creo','ahorita','planteamiento','importante','sapo','digamos','siempre','sólo','lista','dice',
+              'hoy','pueblo','iba','luego','pendiente','mejor','decía','cuánto','buenos días','Cuándo','buenos','días']
 stop_words =stop_words_es + stop_words2
 
 

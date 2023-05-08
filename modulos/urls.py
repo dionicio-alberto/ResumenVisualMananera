@@ -9,7 +9,7 @@ def url_dia():
     soup = BeautifulSoup(website_url.text,'html.parser')
 
     data = [element.get('href') for element in soup.find_all('a')]
-
+    print(data[17][50:55])
     i,ii=True,0
     while i:
         
